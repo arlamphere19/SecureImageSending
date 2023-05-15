@@ -1,0 +1,64 @@
+/* Amanda Lamphere
+** Styling of "The Math" Webpage
+*/
+
+/*Formatting for whole webpage*/
+html{
+    text-align: center;
+    background-image: url(numbers.jpg);
+    background-size: 100%;
+}
+
+/*Formatting for the main title header*/
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+    color: #fdfdfe;
+    text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
+}
+
+/*Styling of headers*/
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*Styling the navigation bar*/
+nav{
+    font-size: 100%;
+    padding: 5px;
+    color: white;
+    text-indent: 1%;
+    background-color: #317773;
+    text-align: right;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+/*Formatting of the latex images*/
+img{
+    border: 5px;
+    border-style: solid; 
+    border-color: gray;
+    border-width: 3px; 
+    display: inline;
+}
+
+/*Styling the section*/
+main{
+    background-color: #E2D1F9;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 1%;
+    text-align: center;
+}
+
+/*Increasing the font size*/
+#crypto{
+    font-size: larger;
+}
